@@ -5,12 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="05eabf41-d35e-46df-924e-3beb9e8e75e6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/simpleDao/src/main/java/w2l/inspired/dao/CustomerDaoDB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simpleDao/src/main/java/w2l/inspired/logical/DataRelatedException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simpleDao/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/simpleDao/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simpleDao/src/main/java/w2l/inspired/dao/CustomerDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/simpleDao/src/main/java/w2l/inspired/dao/CustomerDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simpleDao/src/main/java/w2l/inspired/dao/CustomerSimpleDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/simpleDao/src/main/java/w2l/inspired/dao/CustomerSimpleDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simpleDao/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/simpleDao/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simpleDao/src/main/java/w2l/inspired/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/simpleDao/src/main/java/w2l/inspired/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simpleDao/src/main/java/w2l/inspired/logical/CustomerScoreCalc.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/simpleDao/src/main/java/w2l/inspired/logical/CustomersChecker.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/simpleDao/src/main/java/w2l/inspired/logical/DailyLogFileProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/simpleDao/src/main/java/w2l/inspired/logical/DailyLogDBProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simpleDao/src/main/java/w2l/inspired/model/DailyLog.java" beforeDir="false" afterPath="$PROJECT_DIR$/simpleDao/src/main/java/w2l/inspired/model/DailyLog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simpleDao/src/main/java/w2l/inspired/web/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/simpleDao/src/main/java/w2l/inspired/web/CustomerController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -222,14 +224,27 @@
       <option name="presentableId" value="Default" />
       <updated>1774429939328</updated>
     </task>
+    <task id="LOCAL-00001" summary="crud_jdbcTemplate">
+      <option name="closed" value="true" />
+      <created>1775154992282</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1775154992282</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="crud_jdbcTemplate" />
+    <option name="LAST_COMMIT_MESSAGE" value="crud_jdbcTemplate" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/simpleDao/src/main/java/w2l/inspired/web/CustomerController.java</url>
-          <line>42</line>
+          <line>38</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
