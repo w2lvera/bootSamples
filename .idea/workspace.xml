@@ -5,21 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="05eabf41-d35e-46df-924e-3beb9e8e75e6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/quickStarted/src/main/java/w2l/inspired/MyController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simpleDao/src/main/java/w2l/inspired/SpringConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simpleDao/src/main/java/w2l/inspired/web/TestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simpleDao/src/main/java/w2l/inspired/dao/CustomerDaoDB.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quickStarted/src/main/java/w2l/inspired/QuickstartApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/quickStarted/src/main/java/w2l/inspired/QuickstartApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quickStarted/src/main/java/w2l/inspired/ServletInitializer.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/simpleDao/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/simpleDao/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simpleDao/src/main/java/w2l/inspired/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/simpleDao/src/main/java/w2l/inspired/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simpleDao/src/main/java/w2l/inspired/dao/CustomerDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/simpleDao/src/main/java/w2l/inspired/dao/CustomerDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/simpleDao/src/main/java/w2l/inspired/dao/CustomerSimpleDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/simpleDao/src/main/java/w2l/inspired/dao/CustomerSimpleDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simpleDao/src/main/java/w2l/inspired/web/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/simpleDao/src/main/java/w2l/inspired/web/CustomerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simpleDao/src/main/java/w2l/inspired/web/QuickstartApplication.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/simpleDao/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/simpleDao/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simpleDao/src/main/resources/context.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simpleDao/src/main/resources/customers.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,6 +51,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectColorInfo">{
@@ -71,20 +67,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;openjdk-25&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Vera/IdeaProjects/quickstartBoot&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.38850576&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "crud",
+    "jdk.selected.JAVA_MODULE": "openjdk-25",
+    "last_opened_file_path": "C:/Users/Vera/IdeaProjects/quickstartBoot",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.38850576",
+    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Vera\IdeaProjects\bootSamples\quickStarted\src\main\java" />
@@ -210,8 +206,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.bootSamples:simpleDao [bootRun]" />
-        <item itemvalue="Gradle.bootSamples:simpleDao [clean]" />
         <item itemvalue="Gradle.bootSamples:simpleDao [build]" />
+        <item itemvalue="Gradle.bootSamples:simpleDao [clean]" />
         <item itemvalue="Gradle.bootSamples:simpleDao [bootWar]" />
         <item itemvalue="Gradle.bootSamples:quickStarted [bootRun]" />
       </list>

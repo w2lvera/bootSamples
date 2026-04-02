@@ -9,5 +9,6 @@ public interface CustomerDao {
     Customer getCustomerById(int id);
     Customer getCustomerByName(String name);
     void insertCustomer(Customer t);
+    void deleteCustomer(Customer t);
 }
 

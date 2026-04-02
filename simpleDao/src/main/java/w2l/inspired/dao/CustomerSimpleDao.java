@@ -43,4 +43,9 @@ public class CustomerSimpleDao implements CustomerDao{
     public void insertCustomer(Customer t) {
         customers.add(t);
     }
+
+    @Override
+    public void deleteCustomer(Customer t) {
+        customers.remove(t);
+    }
 }
