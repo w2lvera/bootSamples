@@ -8,6 +8,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.ModelAndView;
+import w2l.inspired.dao.CustomerDao;
 import w2l.inspired.dao.CustomerSimpleDao;
 import w2l.inspired.logical.CustomerScoreCalc;
 import w2l.inspired.logical.CustomersChecker;
@@ -25,7 +26,7 @@ import java.util.List;
 @Controller
 public class CustomerController {
     @Autowired
-    private CustomerSimpleDao customerSimpleDao;
+    private CustomerDao customerSimpleDao;
     @Autowired
     private CustomersChecker checker;
     @Autowired

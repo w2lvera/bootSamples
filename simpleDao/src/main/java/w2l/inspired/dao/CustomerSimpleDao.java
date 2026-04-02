@@ -11,7 +11,6 @@ import java.util.NoSuchElementException;
 public class CustomerSimpleDao implements CustomerDao{
     private final List<Customer> customers;
 
-    @Autowired
     public CustomerSimpleDao() {
         customers = new LinkedList<>();
         customers.add(new Customer(1, "Ivanov"));
@@ -19,7 +18,7 @@ public class CustomerSimpleDao implements CustomerDao{
         customers.add(new Customer(3, "Sidorov"));
         customers.add(new Customer(4, "Pushkin"));
     }
-   // @Autowired
+
     public CustomerSimpleDao(List<Customer> customers) {
         this.customers = customers;
     }
