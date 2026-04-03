@@ -27,9 +27,12 @@ dependencies {
 
     implementation 'org.springframework.boot:spring-boot-starter-webmvc'
     providedRuntime 'org.springframework.boot:spring-boot-starter-tomcat-runtime'
+
     implementation 'org.springframework.boot:spring-boot-starter-jdbc'
     // https://mvnrepository.com/artifact/org.postgresql/postgresql
     runtimeOnly('org.postgresql:postgresql:42.7.10')
+    // https://mvnrepository.com/artifact/org.liquibase/liquibase-core
+    implementation 'org.liquibase:liquibase-core:4.29.0'
 
     testImplementation 'org.springframework.boot:spring-boot-starter-thymeleaf-test'
     testImplementation 'org.springframework.boot:spring-boot-starter-webmvc-test'
