@@ -4,13 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="05eabf41-d35e-46df-924e-3beb9e8e75e6" name="Changes" comment="crud_jdbcTemplate write daily log to daily_logs">
-      <change afterPath="$PROJECT_DIR$/simpleDao/src/main/resources/database/changelog.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simpleDao/src/main/resources/database/changeset-1.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="05eabf41-d35e-46df-924e-3beb9e8e75e6" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/simpleDao/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/simpleDao/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simpleDao/src/main/java/w2l/inspired/SpringConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/simpleDao/src/main/java/w2l/inspired/SpringConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simpleDao/src/main/java/w2l/inspired/dao/CustomerDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/simpleDao/src/main/java/w2l/inspired/dao/CustomerDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simpleDao/src/main/java/w2l/inspired/dao/CustomerDaoDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/simpleDao/src/main/java/w2l/inspired/logical/CustomerDaoDB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simpleDao/src/main/java/w2l/inspired/dao/CustomerSimpleDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/simpleDao/src/main/java/w2l/inspired/logical/DailyLogDBProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/simpleDao/src/main/java/w2l/inspired/logical/DailyLogDaoDB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simpleDao/src/main/java/w2l/inspired/logical/DailyLogProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/simpleDao/src/main/java/w2l/inspired/dao/DailyLogDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simpleDao/src/main/java/w2l/inspired/model/CompletionStatus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/simpleDao/src/main/java/w2l/inspired/model/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/simpleDao/src/main/java/w2l/inspired/model/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simpleDao/src/main/java/w2l/inspired/model/DailyLog.java" beforeDir="false" afterPath="$PROJECT_DIR$/simpleDao/src/main/java/w2l/inspired/model/DailyLog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simpleDao/src/main/java/w2l/inspired/web/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/simpleDao/src/main/java/w2l/inspired/web/CustomerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simpleDao/src/main/java/w2l/inspired/web/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/simpleDao/src/main/java/w2l/inspired/web/DailyLogController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/simpleDao/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/simpleDao/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simpleDao/src/main/resources/database/changeset-1.sql" beforeDir="false" afterPath="$PROJECT_DIR$/simpleDao/src/main/resources/database/changeset-1.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +60,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="crud" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -72,7 +79,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "crud",
+    "git-widget-placeholder": "hibernate",
     "jdk.selected.JAVA_MODULE": "openjdk-25",
     "last_opened_file_path": "C:/Users/Vera/IdeaProjects/bootSamples/simpleDao/src/main/resources",
     "project.structure.last.edited": "Modules",
@@ -247,26 +254,30 @@
       <option name="project" value="LOCAL" />
       <updated>1775158158286</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="crud_jdbcTemplate add liquibase for data migration">
+      <option name="closed" value="true" />
+      <created>1775225728106</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1775225728106</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="crud_jdbcTemplate" />
     <MESSAGE value="crud_jdbcTemplate write daily log to daily_logs" />
-    <option name="LAST_COMMIT_MESSAGE" value="crud_jdbcTemplate write daily log to daily_logs" />
+    <MESSAGE value="crud_jdbcTemplate add liquibase for data migration" />
+    <option name="LAST_COMMIT_MESSAGE" value="crud_jdbcTemplate add liquibase for data migration" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/simpleDao/src/main/java/w2l/inspired/web/CustomerController.java</url>
-          <line>38</line>
+          <line>40</line>
           <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/simpleDao/src/main/java/w2l/inspired/SpringConfig.java</url>
-          <line>27</line>
-          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
