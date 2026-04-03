@@ -1,11 +1,11 @@
 -- drops
-DROP TABLE IF EXISTS public.customers;
-
-DROP SEQUENCE IF EXISTS public.customers_id;
-
 DROP TABLE IF EXISTS public.daily_logs;
 
 DROP SEQUENCE IF EXISTS public.logs_id;
+
+DROP TABLE IF EXISTS public.customers;
+
+DROP SEQUENCE IF EXISTS public.customers_id;
 
 -- creates
 

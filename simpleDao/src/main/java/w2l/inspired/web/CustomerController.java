@@ -8,7 +8,9 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.ModelAndView;
 import w2l.inspired.dao.CustomerDao;
-import w2l.inspired.logical.DailyLogProcessor;
+import w2l.inspired.dao.DailyLogDao;
+import w2l.inspired.logical.CustomerDaoDB;
+import w2l.inspired.logical.DailyLogDaoDB;
 import w2l.inspired.model.Customer;
 import w2l.inspired.model.DailyLog;
 
@@ -24,10 +26,10 @@ public class CustomerController {
     public static final Logger LOGGER = LogManager.getLogger(CustomerController.class);
 
     @Autowired
-    private CustomerDao customerSimpleDao;
+    private CustomerDaoDB customerDao;
 
     @Autowired
-    private DailyLogProcessor logProcessor;
+    private DailyLogDaoDB dailyLogDao;
 
 
     @RequestMapping({"/"})
@@ -35,7 +37,7 @@ public class CustomerController {
     @RequestMapping(path = "/today", method = RequestMethod.GET)
     public ModelAndView getCustomersForToday() {
         ModelAndView modelAndView = new ModelAndView("markCustomers");
-        modelAndView.addObject("customers", customerSimpleDao.getCustomers());
+        modelAndView.addObject("customers", customerDao.getCustomers());
         modelAndView.addObject("serverTime",LocalDate.now());
         return modelAndView;
     }
@@ -51,7 +53,7 @@ public class CustomerController {
 
         String[] requestParams = (payload == null || payload.isEmpty()) ? new String[0]
                 : payload.split("&"); //1=on&2=on  , off  doesn't exist
-        List<Customer> customers = customerSimpleDao.getCustomers();
+        List<Customer> customers = customerDao.getCustomers();
         for(Customer c:customers){
             for(String pair:requestParams) {
                 String[] split = pair.split("=");
@@ -61,20 +63,9 @@ public class CustomerController {
             }
         }
         mv.addObject("logList", list);
-        logProcessor.reWriteLog(list);
+        dailyLogDao.reWriteLog(list);
         mv.addObject("now", list.size());
         return mv;
     }
-
-//private List<DailyLog> readDailyLogFile() {
-//    List<DailyLog> list = new LinkedList<>();
-//    try {
-//        list.addAll(logProcessor.getLog());
-//    } catch (IOException e) {
-//        LOGGER.warn("Customers are not read!");
-//    }
-//    return list;
-//}
-//
 
 }
