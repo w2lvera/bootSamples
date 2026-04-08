@@ -7,12 +7,13 @@
 </head>
 <body>
 <div class="box"> Текущее время [[${#dates.createNow()}]] </div>
+
 <div> Вчера было
-    <h3>${yesterday}</h3>
+    <th:block th:text="${yesterday}"></th:block>
 </div>
 <div class="main">
     Баланс на сегодня:
-    <h3>${now}</h3>
+    <th:block th:text="${now}"></th:block>
 </div>
 </body>
 </html>
