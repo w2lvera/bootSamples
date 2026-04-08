@@ -4,14 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="05eabf41-d35e-46df-924e-3beb9e8e75e6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/simpleDao/src/main/resources/static/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simpleDao/src/main/resources/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simpleDao/src/main/resources/templates/markCustomers.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simpleDao/src/main/resources/templates/result.html" afterDir="false" />
+    <list default="true" id="05eabf41-d35e-46df-924e-3beb9e8e75e6" name="Changes" comment="restService1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/simpleDao/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/simpleDao/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simpleDao/src/main/webapp/WEB-INF/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/simpleDao/src/main/webapp/WEB-INF/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simpleDao/src/main/java/w2l/inspired/SpringConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/simpleDao/src/main/webapp/WEB-INF/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/simpleDao/src/main/webapp/WEB-INF/markCustomers.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/simpleDao/src/main/webapp/WEB-INF/result.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/simpleDao/src/main/webapp/static/styles.css" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,10 +48,16 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectColorInfo">{
@@ -65,12 +71,13 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "thymeleaf",
     "jdk.selected.JAVA_MODULE": "openjdk-25",
-    "last_opened_file_path": "C:/Users/Vera/IdeaProjects/bootSamples/simpleDao/src/main/resources/static",
+    "last_opened_file_path": "C:/Users/Vera/IdeaProjects/bootSamples/simpleDao/src/main/resources/templates",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.38850576",
@@ -79,6 +86,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Vera\IdeaProjects\bootSamples\simpleDao\src\main\resources\templates" />
       <recent name="C:\Users\Vera\IdeaProjects\bootSamples\simpleDao\src\main\resources\static" />
       <recent name="C:\Users\Vera\IdeaProjects\bootSamples\quickStarted\src\main\java\w2l\inspired" />
       <recent name="C:\Users\Vera\IdeaProjects\bootSamples\quickStarted\src\main\java" />
@@ -90,7 +98,7 @@
       <recent name="w2l.inspired" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.bootSamples:quickStarted [bootRun]">
+  <component name="RunManager" selected="Gradle.bootSamples:simpleDao [bootRun]">
     <configuration name="bootSamples:quickStarted [bootRun]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -203,11 +211,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.bootSamples:simpleDao [bootRun]" />
+        <item itemvalue="Gradle.bootSamples:simpleDao [build]" />
         <item itemvalue="Gradle.bootSamples:quickStarted [bootRun]" />
         <item itemvalue="Gradle.bootSamples:quickStarted [build]" />
-        <item itemvalue="Gradle.bootSamples:simpleDao [bootRun]" />
         <item itemvalue="Gradle.bootSamples:simpleDao [clean]" />
-        <item itemvalue="Gradle.bootSamples:simpleDao [build]" />
       </list>
     </recent_temporary>
   </component>
@@ -228,11 +236,36 @@
       <option name="project" value="LOCAL" />
       <updated>1775681007228</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="restService1">
+      <option name="closed" value="true" />
+      <created>1775682337349</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1775682337349</updated>
+    </task>
+    <task id="LOCAL-00003" summary="restService1">
+      <option name="closed" value="true" />
+      <created>1775689251754</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1775689251754</updated>
+    </task>
+    <task id="LOCAL-00004" summary="restService1">
+      <option name="closed" value="true" />
+      <created>1775689277543</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1775689277543</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="restService" />
-    <option name="LAST_COMMIT_MESSAGE" value="restService" />
+    <MESSAGE value="restService1" />
+    <option name="LAST_COMMIT_MESSAGE" value="restService1" />
   </component>
 </project>
