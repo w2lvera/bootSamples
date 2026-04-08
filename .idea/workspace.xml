@@ -5,9 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="05eabf41-d35e-46df-924e-3beb9e8e75e6" name="Changes" comment="restService1">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simpleDao/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/simpleDao/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simpleDao/src/main/java/w2l/inspired/SpringConfig.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/simpleDao/src/main/webapp/WEB-INF/index.jsp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/simpleDao/src/main/webapp/WEB-INF/markCustomers.jsp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/simpleDao/src/main/webapp/WEB-INF/result.jsp" beforeDir="false" />
@@ -260,7 +257,15 @@
       <option name="project" value="LOCAL" />
       <updated>1775689277543</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="restService1">
+      <option name="closed" value="true" />
+      <created>1775689921582</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1775689921582</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
