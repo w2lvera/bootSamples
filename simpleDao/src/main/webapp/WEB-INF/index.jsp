@@ -10,9 +10,6 @@
 <body>
 
 <div class="box"> Текущее время </div>
-
-
-
 <div class="main">
     <a href="./today"> Выбрать поставщиков сегодня </a>
 </div>

@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Thymeleaf Example as index</title>
+    <link rel="stylesheet" th:href="@{styles.css}" type="text/css"/>
+</head>
+<body>
+<div class="box"> Текущее время [[${#dates.createNow()}]] </div>
+<div> Вчера было
+    <h3>${yesterday}</h3>
+</div>
+<div class="main">
+    Баланс на сегодня:
+    <h3>${now}</h3>
+</div>
+</body>
+</html>
