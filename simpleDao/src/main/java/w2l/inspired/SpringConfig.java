@@ -22,12 +22,12 @@ public class SpringConfig {
         return bean;
     }
 
-    @Bean
-    public SpringLiquibase liquibase(DataSource dataSource) {
-        SpringLiquibase liquibase = new SpringLiquibase();
-        liquibase.setChangeLog("classpath:database/changelog.xml");
-        liquibase.setDataSource(dataSource);
-        return liquibase;
-    }
+//    @Bean
+//    public SpringLiquibase liquibase(DataSource dataSource) {
+//        SpringLiquibase liquibase = new SpringLiquibase();
+//        liquibase.setChangeLog("classpath:database/changelog.xml");
+//        liquibase.setDataSource(dataSource);
+//        return liquibase;
+//    }
 
 }
